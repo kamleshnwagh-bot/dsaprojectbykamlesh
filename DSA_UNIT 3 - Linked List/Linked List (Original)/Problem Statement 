@@ -1,0 +1,1 @@
+Develop a hospital system using a doubly link ed list for patients, an array for beds, and a stack for discharges, supporting admit, dis charge, search, forward display, backward dis play, and undo.
