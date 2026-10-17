@@ -1,0 +1,17 @@
+OBJECTIVES:
+
+1. To develop a menu-driven Hospital Patient Management System for maintaining patient
+records efficiently.
+2. To store patient details such as patient ID, name, age, disease, and allotted bed number in
+a doubly linked list.
+3. To perform essential operations such as admitting new patients, searching for patient
+records, discharging patients, and displaying records.
+4. To display patient information in both forward and backward directions using the doubly
+linked list.
+5. To use an array for managing hospital bed allocation and helping track available beds.
+6. To use a stack to store discharged patient details and support undoing the most recent
+discharge.
+7. To apply dynamic memory allocation and linked-list operations for flexible record
+management.
+8. To improve accuracy, accessibility, and organization of patient information while reducing
+manual record-handling effort.
