@@ -1,0 +1,3 @@
+Problem Statement:
+
+ Develop a hospital patient management system in C++ using a circular doubly linked list, an array and a queue. Patient details (ID, name, age, disease, bed number) are stored in the circular list. Beds are managed using an array. Discharged patients are held in a queue, and the oldest can be re-admitted. The system supports admitting, discharging, searching, forward and backward display, bed status and history.
