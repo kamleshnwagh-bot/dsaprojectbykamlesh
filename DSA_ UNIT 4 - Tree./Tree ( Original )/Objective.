@@ -1,0 +1,3 @@
+Objective:
+
+The objective of this project is to implement a threaded binary search tree in C++ and efficiently determine the inorder predecessor and successor of any specified node. It aims to demonstrate how threads replace null pointers to enable fast traversal without recursion or stack usage. The project also strengthens understanding of BST insertion, searching, and inorder traversal, while handling edge cases where a predecessor or successor does not exist.
