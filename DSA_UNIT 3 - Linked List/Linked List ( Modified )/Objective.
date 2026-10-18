@@ -1,0 +1,3 @@
+Objective: 
+
+The objective of this project is to develop a Hospital Patient Management System in C++ using structures, without classes. Patient details such as ID, name, age, disease and allotted bed number are stored in a circular doubly linked list, which allows easy insertion, deletion, searching and traversal in both forward and backward directions. Hospital beds are managed using an array so a free bed can be allotted to each new patient. Discharged patients are stored in a queue, which keeps the discharge history and lets the oldest discharged patient be re-admitted. The project applies circular linked list, array and queue concepts to solve a real-world hospital problem efficiently.
