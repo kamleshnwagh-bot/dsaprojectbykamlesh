@@ -1,1 +1,4 @@
-Develop a hospital system using a doubly link ed list for patients, an array for beds, and a stack for discharges, supporting admit, dis charge, search, forward display, backward dis play, and undo.
+Problem Statement:
+
+
+ Develop a hospital patient management system using a doubly linked list, an array and a stack. Patient details (ID, name, age, disease, bed number) are stored in the list, beds in the array, and discharged patients in the stack so the last discharge can be undone. It supports admit, discharge, search, and forward and backward display.
