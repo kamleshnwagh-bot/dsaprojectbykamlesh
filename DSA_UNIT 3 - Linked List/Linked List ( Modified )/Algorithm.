@@ -1,22 +1,19 @@
-# Hospital Patient Management System
+Algorithm:
 
-**Data structures used:** Circular doubly linked list, Array, Queue
 
-## Algorithm
-
-1. **Start.** Create an empty circular doubly linked list (head = NULL), an array of 10 free beds and an empty circular queue (size 5).
-2. Display the menu: admit, discharge, search, display forward, display backward, bed status, undo discharge, history, exit.
-3. Read the choice and call the matching function. Repeat Steps 2 and 3 until choice = 0.
-4. **Admit:** Find the first free bed in the array. If none is free, display "No beds available" and stop.
-5. Read patient ID. If the ID already exists in the list, display "Patient ID already exists" and stop.
-6. Read name, age and disease. Allot the bed number, mark the bed as occupied and increase count.
-7. Create a new node and insert it at the end of the list (tail = head->prev). Link tail->next = new node, new node->prev = tail, new node->next = head and head->prev = new node.
-8. **Discharge:** Read patient ID and search the list from head until the head is reached again. If not found, display "Patient not found" and stop.
-9. If the queue is full, remove (dequeue) the oldest record. Then insert (enqueue) the patient record at rear = (rear + 1) % size.
-10. Free the patient's bed in the array. Delete the node by linking its previous and next nodes (update head if the head is deleted), then decrease count.
-11. **Search:** Read the patient ID and traverse the list from head using next until head is reached again. If a node matches, display the patient details; otherwise display "Patient not found".
-12. **Display forward:** Start at head and print each node using next until head is reached again.
-13. **Display backward:** Start at tail (head->prev) and print each node using prev until tail is reached again.
-14. **Bed status:** Traverse the bed array and print each bed as free or occupied, along with the free bed count.
-15. **Undo discharge:** If the queue is empty, display a message and stop. Otherwise take the front (oldest) record, check that its ID is unused and that a free bed exists, then dequeue it (front = (front + 1) % size), allot a free bed and insert the patient at the end of the list.
-16. **History:** Print the queue records from front to rear (oldest discharge first). On exit, free all nodes and **Stop.**
+Step 1: Start. Create an empty circular doubly linked list (head = NULL), an array of 10 free beds and an empty circular queue (size 5).
+Step 2: Display the menu: admit, discharge, search, display forward, display backward, bed status, undo discharge, history, exit.
+Step 3: Read the choice and call the matching function. Repeat Steps 2 and 3 until choice = 0.
+Step 4: Admit: Find the first free bed in the array. If none is free, display "No beds available" and stop.
+Step 5: Read patient ID. If the ID already exists in the list, display "Patient ID already exists" and stop.
+Step 6: Read name, age and disease. Allot the bed number, mark the bed as occupied and increase count.
+Step 7: Create a new node and insert it at the end of the list (tail = head->prev). Link tail->next = new node, new node->prev = tail, new node->next = head and head->prev = new node.
+Step 8: Discharge: Read patient ID and search the list from head until the head is reached again. If not found, display "Patient not found" and stop.
+Step 9: If the queue is full, remove (dequeue) the oldest record. Then insert (enqueue) the patient record at rear = (rear + 1) % size.
+Step 10: Free the patient's bed in the array. Delete the node by linking its previous and next nodes (update head if the head is deleted), then decrease count.
+Step 11: Search: Read the patient ID and traverse the list from head using next until head is reached again. If a node matches, display the patient details; otherwise display "Patient not found".
+Step 12: Display forward: Start at head and print each node using next until head is reached again.
+Step 13: Display backward: Start at tail (head->prev) and print each node using prev until tail is reached again.
+Step 14: Bed status: Traverse the bed array and print each bed as free or occupied, along with the free bed count.
+Step 15: Undo discharge: If the queue is empty, display a message and stop. Otherwise take the front (oldest) record, check that its ID is unused and that a free bed exists, then dequeue it (front = (front + 1) % size), allot a free bed and insert the patient at the end of the list.
+Step 16: History: Print the queue records from front to rear (oldest discharge first). On exit, free all nodes and Stop.
