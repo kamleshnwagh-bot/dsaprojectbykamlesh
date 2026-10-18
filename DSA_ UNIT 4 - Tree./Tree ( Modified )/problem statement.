@@ -1,3 +1,7 @@
-Problem Statement:
-
-Develop a C++ program to build a threaded binary search tree (BST) and display the inorder predecessor and successor of a specified node as well as every node. The program should handle the minimum and maximum nodes that lack a predecessor or successor, and verify all results against the inorder traversal sequence.
+Problem Statement:  
+Develop a C++ program to build a threaded binary search tree (BST)  
+and display the inorder predecessor and successor  
+of a specified node as well as every node.  
+The program should handle the minimum and maximum nodes  
+that lack a predecessor or successor,  
+and verify all results against the inorder traversal sequence.
