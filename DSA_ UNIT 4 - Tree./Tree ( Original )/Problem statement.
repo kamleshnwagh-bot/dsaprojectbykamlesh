@@ -1,9 +1,0 @@
-Problem Statement:  
-Develop a C++ program to find and display the inorder  
-predecessor and successor of a specified node  
-in a threaded binary search tree (BST).  
-The program should build the threaded BST by inserting nodes,  
-replace null child pointers with threads to inorder neighbours,  
-and locate the given node.  
-It should then display its predecessor and successor,  
-wherever they exist, without using recursion or a stack.
