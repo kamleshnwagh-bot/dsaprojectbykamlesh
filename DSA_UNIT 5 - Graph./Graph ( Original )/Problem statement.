@@ -1,8 +1,0 @@
-Problem Statement:
-
-Develop a C++ program to represent railway stations as vertices
-and track links as weighted edges, where weights represent
-distance or travel cost.
-Apply Dijkstra's algorithm from a selected station and display
-the shortest distance and station sequence to a selected
-destination.
