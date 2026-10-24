@@ -1,0 +1,29 @@
+Algorithm: 
+
+Shortest Route Between Railway Stations using Dijkstra's Algorithm
+
+Step 1 : START.
+
+Step 2 : Build the graph (station = vertex, track = weighted edge).
+
+Step 3 : Read the source and destination. If invalid, display an error and STOP.
+
+Step 4 : Set dist[] = INFINITY, parent[] = -1, dist[source] = 0.
+         Push (0, source) into a min-priority queue.
+
+Step 5 : WHILE the queue is not empty, remove station u with the smallest
+         distance and mark it visited (skip if already visited).
+
+Step 6 : For each unvisited neighbour v of u with weight w:
+            if dist[u] + w < dist[v], update dist[v], parent[v] = u
+            and push (dist[v], v) into the queue.
+
+Step 7 : If dist[destination] = INFINITY, display "No route exists".
+         Else trace parent[] back to the source to get the path.
+
+Step 8 : Display the shortest distance and the complete path.
+
+Step 9 : To change the source or update an edge weight, make the change
+         and repeat Steps 4 to 8.
+
+Step 10: STOP.
